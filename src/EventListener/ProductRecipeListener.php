@@ -7,7 +7,7 @@ use Doctrine\Persistence\Event\LifecycleEventArgs;
 
 class ProductRecipeListener
 {
-    public function postPersist(ProductRecipe $productRecipe, LifecycleEventArgs $args): void
+    public function prePersist(ProductRecipe $productRecipe, LifecycleEventArgs $args): void
     {
         $entityManager = $args->getObjectManager();
         $product = $productRecipe->getProduct();

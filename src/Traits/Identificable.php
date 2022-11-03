@@ -9,7 +9,7 @@ trait Identificable
      *
      * @ORM\Column(name="id", type="guid", nullable=false)
      * @ORM\Id
-     * @ORM\GeneratedValue(strategy="UUID")
+     * @ORM\GeneratedValue()
      */
     protected $id;
 
