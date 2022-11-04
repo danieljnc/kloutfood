@@ -94,9 +94,10 @@ abstract class AbstractCrudController extends AbstractController
 
         if (!$result) {
             return $this->render($this->getEditRender(), [
-                'entity' => $entity,
-                'isNew' => false,
-                'form' => $editForm->createView()]
+                    'entity' => $entity,
+                    'isNew'  => false,
+                    'form'   => $editForm->createView(),
+                ]
             );
         }
 
@@ -113,12 +114,13 @@ abstract class AbstractCrudController extends AbstractController
     }
 
     /**
-     * @param $id
+     * @param int $id
      * @return Response
      */
-    public function deleteAction($id): Response
+    public function deleteAction(int $id): Response
     {
         $this->delete($this->getRepository()->find($id));
+
         return $this->redirectToRoute($this->getListUrl());
     }
 

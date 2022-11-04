@@ -14,6 +14,54 @@
                 <source>kf_data_unsaved</source>
                 <target>Data could not be saved</target>
             </trans-unit>
+            <trans-unit id="4">
+                <source>kf_category_name</source>
+                <target>Category Name</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>kf_product_category</source>
+                <target>Product Category</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>kf_product_name</source>
+                <target>Product Name</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>kf_product_description</source>
+                <target>Product Description</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>kf_product_stock</source>
+                <target>Stock</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>kf_product_leftover</source>
+                <target>Leftover</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>kf_product_measurement_unit</source>
+                <target>Measurement Unit</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>kf_recipe_name</source>
+                <target>Recipe Name</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>kf_recipe_description</source>
+                <target>Recipe Description</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>kf_product_price</source>
+                <target>Product Price</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>kf_recipe_product</source>
+                <target>Recipe Product</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>kf_recipe_product_quantity</source>
+                <target>Recipe Product Price</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>
